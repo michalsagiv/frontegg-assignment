@@ -1,12 +1,39 @@
-# React + Vite
+# Frontegg – React + Vite integration demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Small Vite + React application that integrates Frontegg’s hosted-login and Admin-Portal.  
+Everything shown below is **implemented and working**; no additional features were added beyond these screens.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What you can see
 
-## Expanding the ESLint configuration
+1. **Hosted login box** – sign-in with magic-link (email) or Google.  
+2. **Sign-up page** – new users can register a tenant (company) and continue by magic-link.  
+3. **Home screen** – after authentication the user’s name and avatar are displayed, with quick buttons:  
+   *show access-token*, *logout*, and *settings* (Admin-Portal).  
+4. **Admin-Portal – Profile tab** – user can view / edit personal details.  
+5. **Admin-Portal – Users tab** – shows existing users; `vikram.moule@frontegg.com` was invited with the **Limited Admin** role (pending approval).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Screenshots
+
+| Flow | File |
+|------|------|
+| Hosted login (sign-in) | `images/signin.png` |
+| Hosted sign-up | `images/signup.png` |
+| Home page (after login) | `images/login.png` |
+| Admin-Portal → Profile | `images/settings.png` |
+| Admin-Portal → Users | `images/users.png` |
+
+> All screenshots are stored in the `images/` folder of this repository.
+
+---
+
+## Run locally
+
+```bash
+git clone https://github.com/<your-username>/frontegg-assignment.git
+cd frontegg-assignment
+npm install
+npm run dev           # opens http://localhost:5173
