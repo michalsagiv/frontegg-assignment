@@ -7,15 +7,24 @@ The application is a minimal Vite + React SPA that demonstrates a basic, working
 
 ## What is implemented
 
-1. **Hosted Login Box** – sign-in / sign-up with magic-link (email) and an optional Google button.  
-2. **Home page** – after authentication it shows the user’s name, profile picture, and three quick actions:
-   *Show token*, *Logout*, and *Settings*.  
-3. **Admin Portal** (opens as a modal):
-   - **Profile** tab  
-   - **Users** tab – user **vikram.moule@frontegg.com** was invited with the custom “Limited Admin” role (magic-link only).  
-   - **Audit Logs** and **API Tokens** are visible.  
-4. **Logout** clears the session and redirects back to the app.  
-5. The entire flow works locally on `http://localhost:5173`.
+- **Hosted Login Box**  
+  - Passwordless magic-link flow  
+  - Google social-login button  
+- **Sign-up flow** for new tenants (account + company name)  
+- **Home page** after authentication  
+  - Greets the user by name  
+  - Shows the profile picture (or fallback avatar)  
+  - Three quick actions: **Show token · Logout · Settings**  
+- **Settings → Admin Portal** (opens as a modal inside the SPA)  
+  - **Profile** tab  
+  - **Users** tab – *vikram.moule@frontegg.com* invited with the custom **Limited Admin** role (magic-link only)  
+  - **Audit Logs** tab  
+  - **API Tokens** tab (M2M)  
+- **Limited Admin** role (view own profile, invite users, view audit logs, create M2M tokens)  
+- **Logout** button – clears session and redirects to the App URL  
+
+The entire flow works locally on `http://localhost:5173`.
+
 
 ---
 
@@ -27,19 +36,19 @@ The application is a minimal Vite + React SPA that demonstrates a basic, working
   </tr>
   <tr>
     <td>Hosted login (sign-in)</td>
-    <td><img src="images/signin.png" width="350"/></td>
+    <td><img src="images/signin.png" width="450"/></td>
   </tr>
   <tr>
     <td>Hosted sign-up</td>
-    <td><img src="images/signup.png" width="350"/></td>
+    <td><img src="images/signup.png" width="450"/></td>
   </tr>
   <tr>
     <td>Home page</td>
-    <td><img src="images/login.png" width="350"/></td>
+    <td><img src="images/login.png" width="450"/></td>
   </tr>
   <tr>
     <td>Admin Portal → Profile</td>
-    <td><img src="images/settings.png" width="350"/></td>
+    <td><img src="images/settings.png" width="450"/></td>
   </tr>
   <tr>
     <td>Admin Portal → Users</td>
