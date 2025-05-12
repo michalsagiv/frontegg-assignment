@@ -1,39 +1,43 @@
-# Frontegg – React + Vite integration demo
+# Frontegg • React + Vite demo
 
-Small Vite + React application that integrates Frontegg’s hosted-login and Admin-Portal.  
-Everything shown below is **implemented and working**; no additional features were added beyond these screens.
-
----
-
-## What you can see
-
-1. **Hosted login box** – sign-in with magic-link (email) or Google.  
-2. **Sign-up page** – new users can register a tenant (company) and continue by magic-link.  
-3. **Home screen** – after authentication the user’s name and avatar are displayed, with quick buttons:  
-   *show access-token*, *logout*, and *settings* (Admin-Portal).  
-4. **Admin-Portal – Profile tab** – user can view / edit personal details.  
-5. **Admin-Portal – Users tab** – shows existing users; `vikram.moule@frontegg.com` was invited with the **Limited Admin** role (pending approval).
+This repository contains my solution for the **Tier-1 Technical Support Engineer** home assignment.  
+The application is a minimal Vite + React SPA that demonstrates a basic, working Frontegg integration.
 
 ---
 
-## Screenshots
+## What is implemented
 
-| Flow | File |
-|------|------|
-| Hosted login (sign-in) | `images/signin.png` |
-| Hosted sign-up | `images/signup.png` |
-| Home page (after login) | `images/login.png` |
-| Admin-Portal → Profile | `images/settings.png` |
-| Admin-Portal → Users | `images/users.png` |
-
-> All screenshots are stored in the `images/` folder of this repository.
+1. **Hosted Login Box** – sign-in / sign-up with magic-link (email) and an optional Google button.  
+2. **Home page** – after authentication it shows the user’s name, profile picture, and three quick actions:
+   *Show token*, *Logout*, and *Settings*.  
+3. **Admin Portal** (opens as a modal):
+   - **Profile** tab  
+   - **Users** tab – user **vikram.moule@frontegg.com** was invited with the custom “Limited Admin” role (magic-link only).  
+   - **Audit Logs** and **API Tokens** are visible.  
+4. **Logout** clears the session and redirects back to the app.  
+5. The entire flow works locally on `http://localhost:5173`.
 
 ---
 
-## Run locally
+## Visual tour
+
+| Step | Screenshot |
+|------|------------|
+| Hosted login (sign-in) | ![signin](https://github.com/user-attachments/assets/7e25e29d-dc00-40ec-bcec-58342131c6f8) |
+|
+| Hosted sign-up | `signup.png` |
+| Home page (after login) | `login.png` |
+| Admin Portal → Profile | `settings.png` |
+| Admin Portal → Users | `users.png` |
+
+> All five PNG files are stored in the root of the repository (update the paths if you move them to another folder).
+
+---
+
+## Running locally
 
 ```bash
 git clone https://github.com/<your-username>/frontegg-assignment.git
 cd frontegg-assignment
 npm install
-npm run dev           # opens http://localhost:5173
+npm run dev         # opens http://localhost:5173
