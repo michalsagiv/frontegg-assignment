@@ -57,7 +57,7 @@ The entire flow works locally on `http://localhost:5173`.
 </table>
 
 
-> All five PNG files are stored in the root of the repository (update the paths if you move them to another folder).
+> All five PNG files are stored in the `images/` directory of the repository.
 
 ---
 
