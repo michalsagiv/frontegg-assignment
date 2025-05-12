@@ -16,12 +16,11 @@ function App() {
   const logout = () => {
     const baseUrl = ContextHolder.getContext().baseUrl;
     window.location.href = `${baseUrl}/oauth/logout?post_logout_redirect_uri=${window.location}`;
-  };
+  };  
 
   const openSettings = () => {
     AdminPortal.show();
   };
-
 
   if (isLoading) {
     return <div style={{ padding: "2rem" }}>Loading...</div>;
@@ -32,7 +31,6 @@ function App() {
       {isAuthenticated ? (
         <div>
           <h2>Logged in as {user?.name ?? user?.email}</h2>
-          {console.log("Persmissions: ", user?.permissions, user?.roles)} {/* Log permissions and roles */}
           <img
             src={user?.profilePictureUrl ?? "/default-avatar.svg"}
             alt={user?.name ?? "avatar"}
