@@ -52,7 +52,7 @@ The entire flow works locally on `http://localhost:5173`.
   </tr>
   <tr>
     <td>Admin Portal → Users</td>
-    <td><img src="images/users.png" width="350"/></td>
+    <td><img src="images/users.png" width="450"/></td>
   </tr>
 </table>
 
