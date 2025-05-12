@@ -23,12 +23,11 @@ The application is a minimal Vite + React SPA that demonstrates a basic, working
 
 | Step | Screenshot |
 |------|------------|
-| Hosted login (sign-in) | ![signin](https://github.com/user-attachments/assets/7e25e29d-dc00-40ec-bcec-58342131c6f8) |
-|
-| Hosted sign-up | `signup.png` |
-| Home page (after login) | `login.png` |
-| Admin Portal → Profile | `settings.png` |
-| Admin Portal → Users | `users.png` |
+| Hosted login (sign-in) | <img src="https://github.com/user-attachments/…/signin.png" width="450"/> |
+| Hosted sign-up | <img src="https://github.com/user-attachments/…/signup.png" width="450"/> |
+| Home page | <img src="https://github.com/user-attachments/…/login.png" width="450"/> |
+| Admin Portal → Profile | <img src="https://github.com/user-attachments/…/settings.png" width="450"/> |
+| Admin Portal → Users | <img src="https://github.com/user-attachments/…/users.png" width="450"/> |
 
 > All five PNG files are stored in the root of the repository (update the paths if you move them to another folder).
 
