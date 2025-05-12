@@ -21,13 +21,32 @@ The application is a minimal Vite + React SPA that demonstrates a basic, working
 
 ## Visual tour
 
-| Step | Screenshot |
-|------|------------|
-| Hosted login (sign-in) | <img src="https://github.com/user-attachments/…/signin.png" width="450"/> |
-| Hosted sign-up | <img src="https://github.com/user-attachments/…/signup.png" width="450"/> |
-| Home page | <img src="https://github.com/user-attachments/…/login.png" width="450"/> |
-| Admin Portal → Profile | <img src="https://github.com/user-attachments/…/settings.png" width="450"/> |
-| Admin Portal → Users | <img src="https://github.com/user-attachments/…/users.png" width="450"/> |
+<table>
+  <tr>
+    <th>Step</th><th>Screenshot</th>
+  </tr>
+  <tr>
+    <td>Hosted login (sign-in)</td>
+    <td><img src="images/signin.png" width="350"/></td>
+  </tr>
+  <tr>
+    <td>Hosted sign-up</td>
+    <td><img src="images/signup.png" width="350"/></td>
+  </tr>
+  <tr>
+    <td>Home page</td>
+    <td><img src="images/login.png" width="350"/></td>
+  </tr>
+  <tr>
+    <td>Admin Portal → Profile</td>
+    <td><img src="images/settings.png" width="350"/></td>
+  </tr>
+  <tr>
+    <td>Admin Portal → Users</td>
+    <td><img src="images/users.png" width="350"/></td>
+  </tr>
+</table>
+
 
 > All five PNG files are stored in the root of the repository (update the paths if you move them to another folder).
 
