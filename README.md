@@ -1,4 +1,4 @@
-# Frontegg • React + Vite demo
+# Frontegg home assignment
 
 This repository contains my solution for the **Tier-1 Technical Support Engineer** home assignment.  
 The application is a minimal Vite + React SPA that demonstrates a basic, working Frontegg integration.
